@@ -163,6 +163,13 @@
             color: white;
             font-size: 1.2rem;
             font-weight: 600;
+            overflow: hidden;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         /* Collection Header */
@@ -228,7 +235,14 @@
             overflow: hidden;
         }
 
-        .product-card:hover .product-image {
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image img {
             transform: scale(1.05);
         }
 
@@ -540,7 +554,7 @@
                 <p>Join us in creating a more sustainable future—one outfit at a time.</p>
             </div>
             <div class="about-image">
-                Brand Story Image Placeholder
+                <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/daura.webp" alt="Daura Suruwal - Traditional Nepali Dress">
             </div>
         </div>
     </section>
@@ -554,116 +568,116 @@
 
         <div class="container">
             <div class="product-grid">
-                <!-- Product 1 -->
+                <!-- Product 1: Daura Suruwal -->
                 <div class="product-card">
                     <div class="product-image">
-                        <span>ORGANIC COTTON T-SHIRT</span>
-                        <div class="product-badge">NEW</div>
+                        <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/daura.webp" alt="Daura Suruwal">
+                        <div class="product-badge">FEATURED</div>
                     </div>
                     <div class="product-info">
-                        <div class="product-category">T-Shirts</div>
-                        <div class="product-name">Organic Cotton Tee</div>
-                        <div class="product-description">100% organic cotton, sustainably sourced and ethically produced.</div>
+                        <div class="product-category">Traditional Wear</div>
+                        <div class="product-name">Daura Suruwal</div>
+                        <div class="product-description">Traditional Nepali men's outfit with authentic craftsmanship and cultural heritage.</div>
                         <div class="product-price-section">
-                            <span class="product-price">$34.99</span>
+                            <span class="product-price">$89.99</span>
                             <span class="product-rating">★★★★★</span>
                         </div>
-                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Organic%20Cotton%20Tee" target="_blank" class="order-button">🛒 Order Now</a>
+                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Daura%20Suruwal" target="_blank" class="order-button">🛒 Order Now</a>
                         <button class="wishlist-button">♡ Add to Wishlist</button>
                     </div>
                 </div>
 
-                <!-- Product 2 -->
+                <!-- Product 2: Gunyo Cholo -->
                 <div class="product-card">
                     <div class="product-image">
-                        <span>SUSTAINABLE DENIM JACKET</span>
-                        <div class="product-badge">SALE</div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Jackets</div>
-                        <div class="product-name">Classic Denim Jacket</div>
-                        <div class="product-description">Recycled denim with eco-friendly finishes. Timeless and versatile.</div>
-                        <div class="product-price-section">
-                            <span class="product-price">$79.99</span>
-                            <span class="product-rating">★★★★☆</span>
-                        </div>
-                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Classic%20Denim%20Jacket" target="_blank" class="order-button">🛒 Order Now</a>
-                        <button class="wishlist-button">♡ Add to Wishlist</button>
-                    </div>
-                </div>
-
-                <!-- Product 3 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <span>ECO-FRIENDLY JOGGERS</span>
+                        <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/gunyo%20cholo.webp" alt="Gunyo Cholo">
                         <div class="product-badge">TRENDING</div>
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Bottoms</div>
-                        <div class="product-name">Comfort Joggers</div>
-                        <div class="product-description">Made from sustainable bamboo fabric. Perfect for everyday comfort.</div>
+                        <div class="product-category">Women's Wear</div>
+                        <div class="product-name">Gunyo Cholo</div>
+                        <div class="product-description">Elegant women's traditional dress with intricate designs and vibrant colors.</div>
                         <div class="product-price-section">
-                            <span class="product-price">$54.99</span>
+                            <span class="product-price">$109.99</span>
                             <span class="product-rating">★★★★★</span>
                         </div>
-                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Comfort%20Joggers" target="_blank" class="order-button">🛒 Order Now</a>
+                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Gunyo%20Cholo" target="_blank" class="order-button">🛒 Order Now</a>
                         <button class="wishlist-button">♡ Add to Wishlist</button>
                     </div>
                 </div>
 
-                <!-- Product 4 -->
+                <!-- Product 3: Haku Patasi -->
                 <div class="product-card">
                     <div class="product-image">
-                        <span>LINEN BUTTON-UP SHIRT</span>
+                        <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/haku%20patasi.avif" alt="Haku Patasi">
                         <div class="product-badge">NEW</div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Shirts</div>
-                        <div class="product-name">Premium Linen Shirt</div>
-                        <div class="product-description">Pure linen fabric, naturally breathable and hypoallergenic.</div>
-                        <div class="product-price-section">
-                            <span class="product-price">$64.99</span>
-                            <span class="product-rating">★★★★☆</span>
-                        </div>
-                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Premium%20Linen%20Shirt" target="_blank" class="order-button">🛒 Order Now</a>
-                        <button class="wishlist-button">♡ Add to Wishlist</button>
-                    </div>
-                </div>
-
-                <!-- Product 5 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <span>ORGANIC LINEN DRESS</span>
-                        <div class="product-badge">SALE</div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Dresses</div>
-                        <div class="product-name">Minimalist Linen Dress</div>
-                        <div class="product-description">Elegant and sustainable linen dress. Available in multiple colors.</div>
-                        <div class="product-price-section">
-                            <span class="product-price">$84.99</span>
-                            <span class="product-rating">★★★★★</span>
-                        </div>
-                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Minimalist%20Linen%20Dress" target="_blank" class="order-button">🛒 Order Now</a>
-                        <button class="wishlist-button">♡ Add to Wishlist</button>
-                    </div>
-                </div>
-
-                <!-- Product 6 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <span>HEMP CANVAS BACKPACK</span>
-                        <div class="product-badge">TRENDING</div>
                     </div>
                     <div class="product-info">
                         <div class="product-category">Accessories</div>
-                        <div class="product-name">Hemp Canvas Backpack</div>
-                        <div class="product-description">Durable hemp canvas. Perfect for daily commute or travel.</div>
+                        <div class="product-name">Haku Patasi</div>
+                        <div class="product-description">Traditional headwear with authentic patterns and cultural significance.</div>
                         <div class="product-price-section">
-                            <span class="product-price">$69.99</span>
+                            <span class="product-price">$44.99</span>
+                            <span class="product-rating">★★★★☆</span>
+                        </div>
+                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Haku%20Patasi" target="_blank" class="order-button">🛒 Order Now</a>
+                        <button class="wishlist-button">♡ Add to Wishlist</button>
+                    </div>
+                </div>
+
+                <!-- Product 4: Chhetri Traditional -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/chhetri.jfif" alt="Chhetri Traditional">
+                        <div class="product-badge">FEATURED</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Traditional Wear</div>
+                        <div class="product-name">Chhetri Traditional</div>
+                        <div class="product-description">Premium traditional attire reflecting Chhetri cultural heritage and elegance.</div>
+                        <div class="product-price-section">
+                            <span class="product-price">$119.99</span>
                             <span class="product-rating">★★★★★</span>
                         </div>
-                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Hemp%20Canvas%20Backpack" target="_blank" class="order-button">🛒 Order Now</a>
+                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Chhetri%20Traditional" target="_blank" class="order-button">🛒 Order Now</a>
+                        <button class="wishlist-button">♡ Add to Wishlist</button>
+                    </div>
+                </div>
+
+                <!-- Product 5: Tamang Traditional -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/tamang.jfif" alt="Tamang Traditional">
+                        <div class="product-badge">SALE</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ethnic Wear</div>
+                        <div class="product-name">Tamang Traditional</div>
+                        <div class="product-description">Authentic Tamang attire with traditional embroidery and cultural significance.</div>
+                        <div class="product-price-section">
+                            <span class="product-price">$99.99</span>
+                            <span class="product-rating">★★★★☆</span>
+                        </div>
+                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Tamang%20Traditional" target="_blank" class="order-button">🛒 Order Now</a>
+                        <button class="wishlist-button">♡ Add to Wishlist</button>
+                    </div>
+                </div>
+
+                <!-- Product 6: Tharu Traditional -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://raw.githubusercontent.com/atishdhobi693-prog/Everest_Ethic/main/tharu.avif" alt="Tharu Traditional">
+                        <div class="product-badge">TRENDING</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ethnic Wear</div>
+                        <div class="product-name">Tharu Traditional</div>
+                        <div class="product-description">Beautiful Tharu cultural dress with distinctive patterns and vibrant designs.</div>
+                        <div class="product-price-section">
+                            <span class="product-price">$129.99</span>
+                            <span class="product-rating">★★★★★</span>
+                        </div>
+                        <a href="https://wa.me/9779847472816?text=I%20want%20to%20order%20Tharu%20Traditional" target="_blank" class="order-button">🛒 Order Now</a>
                         <button class="wishlist-button">♡ Add to Wishlist</button>
                     </div>
                 </div>
